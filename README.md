@@ -32,4 +32,4 @@ VideoFFT.fft_process(r'IMAGE_OR_VIDEO_PATH', r'OUTPUT_PATH')
 1920x1080,30fps,1分钟的原视频，生成的幅度谱和相位谱视频为10G左右
 
 如果使用压缩后的幅度谱和相位谱复原，得到的效果如下
-
+![compressed_recover](https://github.com/Matoi647/VideoFFT/blob/main/test/compressed_img_recover.png)
