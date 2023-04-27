@@ -12,12 +12,14 @@ pip install numpy opencv-python
 ```
 git clone https://github.com/Matoi647/VideoFFT.git
 ```
-IMAGE_OR_VIDEO_PATH: 图片或视频的路径
-OUTPUT_PATH: 输出路径
-MAGNITUDE_SPECTRUM_PATH: 生成的幅度谱路径
-PHASE_SPECTRUM_PATH: 生成的相位谱路径
+
 ```
 import VideoFFT
+# IMAGE_OR_VIDEO_PATH: 图片或视频的路径
+# OUTPUT_PATH: 输出路径
+# MAGNITUDE_SPECTRUM_PATH: 生成的幅度谱路径
+# PHASE_SPECTRUM_PATH: 生成的相位谱路径
+
 # 傅里叶变换
 VideoFFT.fft_process(r'IMAGE_OR_VIDEO_PATH', r'OUTPUT_PATH')
 # 傅里叶逆变换
